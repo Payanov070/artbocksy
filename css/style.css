@@ -29,7 +29,21 @@
 
 .aziz {}
 
-.dovron {}
+.dovron {
+  background-image: url(../img/dovron-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dovron__img{
+  width: 167px;
+  height: 148px;
+}
+
+.dovron__title,
+.dovron__text{
+  margin-top: 100px;
+}
 
 .fazliddin {}
 
