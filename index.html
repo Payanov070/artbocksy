@@ -1,69 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtBocksy</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ArtBocksy</title>
-  <link rel="stylesheet" href="./css/all.min.css">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/media.css">
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav w-75 justify-content-evenly">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="nav1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Для кого
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="nav1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="nav2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                По тематике
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="nav2">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="nav3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                По направлению
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="nav3">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <a href="#" class="ms-auto">Заказать мастер-класс</a>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav w-75 justify-content-evenly">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="nav1"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Для кого
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="nav1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="nav2"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  По тематике
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="nav2">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="nav3"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  По направлению
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="nav3">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <a href="#" class="ms-auto">Заказать мастер-класс</a>
+          </div>
         </div>
+      </nav>
+
+      <div class="header__menu container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="./img/logo 1.png" alt="logo 1"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Главная</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Наборы</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Мастер-классы
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Оплата</a
+                  >
+                </li>
+              </ul>
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="./img/Phone.png" alt="Phone" />
+                <p class="w-100 mx-2 mb-0" type="submit">+7 995 505 03 35</p>
+              </div>
+
+              <div class="ms-4">
+                <img src="./img/Market.png" class="mx-4" alt="Market" />
+                <img src="./img/Person.png" alt="Person" />
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
-    
-    <div class="header__menu"></div>
-  </header>
+
+      <div class="header__artbox bg-light-purple">
+        <div class="container">
+          <div class="row overflow-hidden p-5">
+            <div class="col-6 d-flex flex-column align-items-center">
+              <img src="./img/header__ava.png" class="w-auto" alt="header__ava" />
+              <h1 class="text-center w-75 mt-2 fw-bold">
+                Выездные творческие мастер-классы
+              </h1>
+  
+              <p class="text-center w-50">
+                Организуем творческую активность на мероприятии любого масштаба
+              </p>
   
   
-  <main>
-    <section class="zafar"></section>
-    <section class="aziz"></section>
     <section class="dovron">
       <div class="dovron-img">
         <div class="container">
@@ -133,11 +237,69 @@
     <section class="fazliddin"></section>
     <section class="sardor"></section>
   </main>
+              <button type="button" class="btn bg-purple p-3 rounded-pill b-shadow fw-bold text-uppercase">
+                Узнать подробнее
+              </button>
+            </div>
+            <div class="col-6 d-flex flex-column align-items-center">
+              <img src="./img/Art-box-ava.png" class="w-auto" alt="Art-box-ava"/>
+              <h1 class="text-center w-75 mt-2 fw-bold">
+                Полный комплект материалов
+              </h1>
   
-  <footer class="footer"></footer>
-
+              <p class="text-center w-50">
+                Все необходимые материалы для творчества в компактном боксе
+              </p>
   
-  <script src="./script/bootstrap.bundle.min.js"></script>
-</body>
+  
+              <button type="button" class="btn bg-purple p-3 rounded-pill b-shadow fw-bold text-uppercase">
+                В каталог
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
+    <main>
+      <section class="zafar container mt-5">
+        <div class="d-flex align-items-center justify-content-between">
+          <h1 class="">
+            Мастер-классы
+          </h1>
+
+          <p class="mb-0">
+            Смотреть мастер-классы
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col bg-blur">
+            <h1 class="mt-5">
+              Выездные творческие мастер-классы
+            </h1>
+
+            <p class="">
+              Организуем творческую активность на мероприятии любого масштаба
+            </p>
+
+            <button type="button" class="btn bg-purple p-3 rounded-pill b-shadow fw-bold text-uppercase">
+              В каталог
+            </button>
+          </div>
+          <div class="col">
+
+          </div>
+        </div>
+      </section>
+      <section class="aziz"></section>
+      <section class="dovron"></section>
+      <section class="fazliddin"></section>
+      <section class="sardor"></section>
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
